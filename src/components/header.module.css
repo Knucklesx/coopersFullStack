@@ -1,0 +1,38 @@
+.skew{
+	margin-top:100px;
+	background: black;
+	display:inline-block;
+	/* -ms-transform: skewY(-12deg);
+	-webkit-transform: skewY(-12deg);
+	transform: skewY(-12deg); */
+	-ms-transform: skewY(-4deg);
+	-webkit-transform: skewY(-4deg);
+	transform: skewY(-4deg);
+  width: 100%;
+}
+.skew>div {
+	padding: 50px 100px;
+	font: 30px/1 sans-serif;
+	-ms-transform: skewY(4deg);
+	-webkit-transform: skewY(4deg);
+	transform: skewY(4deg);
+	color: white;
+
+}
+
+#midPage{
+	margin-top:100px;
+	background: black;
+	display:inline-block;
+	-ms-transform: skewY(-12deg);
+	-webkit-transform: skewY(-12deg);
+	transform: skewY(-12deg);
+}
+#midPage>div {
+	padding: 50px 100px;
+	font: 30px/1 sans-serif;
+	-ms-transform: skewY(12deg);
+	-webkit-transform: skewY(12deg);
+	transform: skewY(12deg);
+	color: white;
+}
